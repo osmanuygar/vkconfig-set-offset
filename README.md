@@ -66,15 +66,9 @@ b. shutdown VKConfig
 ```shell
  /opt/vertica/packages/kafka/bin/vkconfig shutdown --conf /home/dbadmin/kafka/kafka.conf
 ```
-#### 2. Change Cluster Hosts
-a.  Login Vertica as dbadmin and update cluster as the below query
-```shell
- UPDATE config_shcema.stream_clusters
-SET hosts = 'kafka01:9092,kafka02:9092,kafka03:9092'
-WHERE id = 3000001
-```
 
-#### 3. Update micro batches according to new kafka offsets
+
+#### 2. Update micro batches according to new kafka offsets
 a- Create micro batches scripts for updating offsets
 ```shell
 <<<<<<< HEAD
