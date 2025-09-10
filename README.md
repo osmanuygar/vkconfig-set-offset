@@ -139,7 +139,7 @@ Topic: topic_name
   Partition 7: Closest=15580320510, Low=15503721434, High=15580371044 (Exact offset found)
   Partition 8: Closest=15580192389, Low=15503218948, High=15580242949 (Exact offset found)
   
-Topic: topic_nameuygar
+Topic: topic_name
   Partition 0: Closest=123, Low=120, High=125 (Exact offset found)
  
 ```
